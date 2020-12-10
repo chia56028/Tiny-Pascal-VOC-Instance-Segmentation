@@ -4,6 +4,7 @@ The proposed challenge is a tiny Pascal VOC instance segmentation.
 Contains two parts:
 1. Do segmentation mask for each instance
 2. classify the instances into 20 classes
+
 The giving tiny Pascal VOC dataset contains 1349 images for training and 100 images for testing. This project uses the Pytorch library and backbone pre-trained on ImageNet model to fix this challenge.
 
 ### Hardware
