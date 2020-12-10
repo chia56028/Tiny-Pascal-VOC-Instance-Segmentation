@@ -40,6 +40,23 @@ data /
 python train.py
 ```
 
+※ get more info by `python train.py --help`
+```
+usage: train.py [-h] [-r WORKING_DIR] [-e EPOCH] [-b BATCH_SIZE]
+                [-lr LEARNING_RATE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r WORKING_DIR, --root WORKING_DIR
+                        path to dataset
+  -e EPOCH, --epochs EPOCH
+                        num of epoch
+  -b BATCH_SIZE, --batch BATCH_SIZE
+                        set batch size
+  -lr LEARNING_RATE, --learning_rate LEARNING_RATE
+                        set learning rate
+```
+
 ### Testing
 ```
 python test.py
